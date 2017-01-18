@@ -22,7 +22,7 @@ textarea {
   resize: none;
   overflow: auto;
 }
-input[type=radio] {
+input[type=radio], input[type=checkbox] {
   display: none;
 }
 
@@ -93,21 +93,25 @@ input[type=radio] {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   box-sizing: border-box;
 }
-.material-video-edit--like {
+.material-video-edit--icons {
   position: absolute;
   right: 24px;
   top: 20px;
 }
-.material-video-edit--like label {
-  width: 24px;
-  height: 24px;
-  font-size: 1.43rem;
+.material-video-edit--like, .material-video-edit--favourite {
+  display: inline-block;
+}
+.material-video-edit--icons label {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
   border: none;
+  margin-left: 10px;
   padding: 0;
   background: transparent;
   cursor: pointer;
 }
-.material-video-edit--like label:hover {
+.material-video-edit--icons label:hover {
   color: #8BC34A;
 }
 .material-video-edit--selected {
