@@ -1,9 +1,9 @@
 /* Config to define variables */
 :root {
   /* theme colors defined*/
-  --dark-primary-color:       #0096e6;
-  --default-primary-color:    #00B0FF;
-  --light-primary-color:      #40C4FF;
+  --dark-primary-color:       #558B2F;
+  --default-primary-color:    #8BC34A;
+  --light-primary-color:      #AED581;
   --text-primary-color:       #FFFFFF;
   --dark-accent-color:        #43a442;
   --default-accent-color:     #42BD41;
