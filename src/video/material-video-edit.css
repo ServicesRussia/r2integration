@@ -110,6 +110,9 @@ input[type=radio] {
 .material-video-edit--like label:hover {
   color: #8BC34A;
 }
+.material-video-edit--selected {
+  color: #8BC34A;
+}
 .material-video-edit--tags {
   margin-top: 16px;
 }
